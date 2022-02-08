@@ -21,7 +21,7 @@ const Main = ({addTask, activeNote, onUpdateNote }) => {
         setUserInput("");
     }
 
-  if (!activeNote) return <div className="act-note">Aucune note selectionée</div>;
+  if (!activeNote) return <div className="act-note">Aucune note selectionées</div>;
 
   return (
     
